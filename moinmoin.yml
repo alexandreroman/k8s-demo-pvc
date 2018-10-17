@@ -40,7 +40,7 @@ spec:
             claimName: moinmoin-pvc
       containers:
       - name: moinmoin
-        image: alexandreroman/moinmoin-wiki:1.9.10.fixinit
+        image: olavgg/moinmoin-wiki:1.9.10.1
         env:
           - name: NOSSL
             value: "1"
