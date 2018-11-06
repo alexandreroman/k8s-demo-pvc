@@ -12,4 +12,8 @@ Deploy this app using this command:
 $ kubectl apply -f moinmoin.yml
 ```
 
+The app is running a public
+[Docker image](https://hub.docker.com/r/olavgg/moinmoin-wiki/) built by
+[olavgg](https://github.com/olavgg/moinmoin-wiki).
+
 All pods/services/pvc are created in the namespace `moinmoin`.
